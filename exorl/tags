@@ -1,0 +1,459 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/data/home/prajj/code/cai_research/exorl/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/227c65e7/
+ActionDTypeWrapper	dmc.py	/^class ActionDTypeWrapper(dm_env.Environment):$/;"	c
+ActionRepeatWrapper	dmc.py	/^class ActionRepeatWrapper(dm_env.Environment):$/;"	c
+Actor	agent/bc.py	/^class Actor(nn.Module):$/;"	c
+Actor	agent/cql.py	/^class Actor(nn.Module):$/;"	c
+Actor	agent/crr.py	/^class Actor(nn.Module):$/;"	c
+Actor	agent/td3.py	/^class Actor(nn.Module):$/;"	c
+Actor	agent/td3_bc.py	/^class Actor(nn.Module):$/;"	c
+AverageMeter	logger.py	/^class AverageMeter(object):$/;"	c
+BCAgent	agent/bc.py	/^class BCAgent:$/;"	c
+CQLAgent	agent/cql.py	/^class CQLAgent:$/;"	c
+CRRAgent	agent/crr.py	/^class CRRAgent:$/;"	c
+Cheetah	custom_dmc_tasks/cheetah.py	/^class Cheetah(base.Task):$/;"	c
+Citation	README.md	/^## Citation$/;"	s	chapter:ExORL: Exploratory Data for Offline Reinforcement Learning
+Critic	agent/cql.py	/^class Critic(nn.Module):$/;"	c
+Critic	agent/crr.py	/^class Critic(nn.Module):$/;"	c
+Critic	agent/td3.py	/^class Critic(nn.Module):$/;"	c
+Critic	agent/td3_bc.py	/^class Critic(nn.Module):$/;"	c
+Datasets	README.md	/^## Datasets$/;"	s	chapter:ExORL: Exploratory Data for Offline Reinforcement Learning
+EVAL_FORMAT	logger.py	/^EVAL_FORMAT = [('step', 'S', 'int'), ('episode_length', 'L', 'int'),$/;"	v
+Escape	custom_dmc_tasks/quadruped.py	/^class Escape(base.Task):$/;"	c
+Every	utils.py	/^class Every:$/;"	c
+ExORL: Exploratory Data for Offline Reinforcement Learning	README.md	/^# ExORL: Exploratory Data for Offline Reinforcement Learning$/;"	c
+ExtendedTimeStep	dmc.py	/^class ExtendedTimeStep(NamedTuple):$/;"	c
+ExtendedTimeStepWrapper	dmc.py	/^class ExtendedTimeStepWrapper(dm_env.Environment):$/;"	c
+F	agent/bc.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	agent/cql.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	agent/crr.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	agent/td3.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	agent/td3_bc.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+F	utils.py	/^import torch.nn.functional as F$/;"	I	nameref:module:torch.nn.functional
+Fetch	custom_dmc_tasks/quadruped.py	/^class Fetch(base.Task):$/;"	c
+FlattenJacoObservationWrapper	dmc.py	/^class FlattenJacoObservationWrapper(dm_env.Environment):$/;"	c
+FrameStackWrapper	dmc.py	/^class FrameStackWrapper(dm_env.Environment):$/;"	c
+Hopper	custom_dmc_tasks/hopper.py	/^class Hopper(base.Task):$/;"	c
+Jump	custom_dmc_tasks/quadruped.py	/^class Jump(base.Task):$/;"	c
+License	README.md	/^## License$/;"	s	chapter:ExORL: Exploratory Data for Offline Reinforcement Learning
+LogAndDumpCtx	logger.py	/^class LogAndDumpCtx:$/;"	c
+Logger	logger.py	/^class Logger(object):$/;"	c
+MetersGroup	logger.py	/^class MetersGroup(object):$/;"	c
+Move	custom_dmc_tasks/quadruped.py	/^class Move(base.Task):$/;"	c
+MultiTask	custom_dmc_tasks/quadruped.py	/^class MultiTask(base.Task):$/;"	c
+MultiTaskPlanarWalker	custom_dmc_tasks/walker.py	/^class MultiTaskPlanarWalker(base.Task):$/;"	c
+MultiTaskPointMassMaze	custom_dmc_tasks/point_mass_maze.py	/^class MultiTaskPointMassMaze(base.Task):$/;"	c
+MultiTaskReach	custom_dmc_tasks/jaco.py	/^class MultiTaskReach(composer.Task):$/;"	c
+ObservationDTypeWrapper	dmc.py	/^class ObservationDTypeWrapper(dm_env.Environment):$/;"	c
+Offline RL training	README.md	/^## Offline RL training$/;"	s	chapter:ExORL: Exploratory Data for Offline Reinforcement Learning
+OfflineReplayBuffer	replay_buffer.py	/^class OfflineReplayBuffer(IterableDataset):$/;"	c
+PBE	utils.py	/^class PBE(object):$/;"	c
+Physics	custom_dmc_tasks/cheetah.py	/^class Physics(mujoco.Physics):$/;"	c
+Physics	custom_dmc_tasks/hopper.py	/^class Physics(mujoco.Physics):$/;"	c
+Physics	custom_dmc_tasks/point_mass_maze.py	/^class Physics(mujoco.Physics):$/;"	c
+Physics	custom_dmc_tasks/quadruped.py	/^class Physics(mujoco.Physics):$/;"	c
+Physics	custom_dmc_tasks/walker.py	/^class Physics(mujoco.Physics):$/;"	c
+PlanarWalker	custom_dmc_tasks/walker.py	/^class PlanarWalker(base.Task):$/;"	c
+Prerequisites	README.md	/^## Prerequisites$/;"	s	chapter:ExORL: Exploratory Data for Offline Reinforcement Learning
+RMS	utils.py	/^class RMS(object):$/;"	c
+RandomShiftsAug	utils.py	/^class RandomShiftsAug(nn.Module):$/;"	c
+Roll	custom_dmc_tasks/quadruped.py	/^class Roll(base.Task):$/;"	c
+SUITE	custom_dmc_tasks/cheetah.py	/^SUITE = containers.TaggedTasks()$/;"	v
+SUITE	custom_dmc_tasks/hopper.py	/^SUITE = containers.TaggedTasks()$/;"	v
+SUITE	custom_dmc_tasks/point_mass_maze.py	/^SUITE = containers.TaggedTasks()$/;"	v
+SUITE	custom_dmc_tasks/quadruped.py	/^SUITE = containers.TaggedTasks()$/;"	v
+SUITE	custom_dmc_tasks/walker.py	/^SUITE = containers.TaggedTasks()$/;"	v
+SquashedNormal	utils.py	/^class SquashedNormal(pyd.transformed_distribution.TransformedDistribution):$/;"	c
+Stand	custom_dmc_tasks/quadruped.py	/^class Stand(base.Task):$/;"	c
+TASKS	custom_dmc_tasks/jaco.py	/^TASKS = [('reach_top_left', np.array([-0.09, 0.09, _PROP_Z_OFFSET])),$/;"	v
+TASKS	custom_dmc_tasks/point_mass_maze.py	/^TASKS = [('reach_top_left', np.array([-0.15, 0.15, 0.01])),$/;"	v
+TD3Agent	agent/td3.py	/^class TD3Agent:$/;"	c
+TD3BCAgent	agent/td3_bc.py	/^class TD3BCAgent:$/;"	c
+TRAIN_FORMAT	logger.py	/^TRAIN_FORMAT = [('step', 'S', 'int'), ('batch_reward', 'BR', 'float'),$/;"	v
+TanhTransform	utils.py	/^class TanhTransform(pyd.transforms.Transform):$/;"	c
+Timer	utils.py	/^class Timer:$/;"	c
+TruncatedNormal	utils.py	/^class TruncatedNormal(pyd.Normal):$/;"	c
+Until	utils.py	/^class Until:$/;"	c
+VideoRecorder	video.py	/^class VideoRecorder:$/;"	c
+_CONTROL_TIMESTEP	custom_dmc_tasks/hopper.py	/^_CONTROL_TIMESTEP = .02  # (Seconds)$/;"	v
+_CONTROL_TIMESTEP	custom_dmc_tasks/quadruped.py	/^_CONTROL_TIMESTEP = .02$/;"	v
+_CONTROL_TIMESTEP	custom_dmc_tasks/walker.py	/^_CONTROL_TIMESTEP = .025$/;"	v
+_DEFAULT_TIME_LIMIT	custom_dmc_tasks/cheetah.py	/^_DEFAULT_TIME_LIMIT = 10$/;"	v
+_DEFAULT_TIME_LIMIT	custom_dmc_tasks/hopper.py	/^_DEFAULT_TIME_LIMIT = 20$/;"	v
+_DEFAULT_TIME_LIMIT	custom_dmc_tasks/point_mass_maze.py	/^_DEFAULT_TIME_LIMIT = 20$/;"	v
+_DEFAULT_TIME_LIMIT	custom_dmc_tasks/quadruped.py	/^_DEFAULT_TIME_LIMIT = 20$/;"	v
+_DEFAULT_TIME_LIMIT	custom_dmc_tasks/walker.py	/^_DEFAULT_TIME_LIMIT = 25$/;"	v
+_DUPLO_WORKSPACE	custom_dmc_tasks/jaco.py	/^_DUPLO_WORKSPACE = _ReachWorkspace($/;"	v
+_HEIGHTFIELD_ID	custom_dmc_tasks/quadruped.py	/^_HEIGHTFIELD_ID = 0$/;"	v
+_HOP_SPEED	custom_dmc_tasks/hopper.py	/^_HOP_SPEED = 2$/;"	v
+_JUMP_HEIGHT	custom_dmc_tasks/quadruped.py	/^_JUMP_HEIGHT = 1.0$/;"	v
+_PROP_Z_OFFSET	custom_dmc_tasks/jaco.py	/^_PROP_Z_OFFSET = 0.001$/;"	v
+_RUN_SPEED	custom_dmc_tasks/cheetah.py	/^_RUN_SPEED = 10$/;"	v
+_RUN_SPEED	custom_dmc_tasks/quadruped.py	/^_RUN_SPEED = 5$/;"	v
+_RUN_SPEED	custom_dmc_tasks/walker.py	/^_RUN_SPEED = 8$/;"	v
+_ReachWorkspace	custom_dmc_tasks/jaco.py	/^_ReachWorkspace = collections.namedtuple($/;"	v
+_SITE_WORKSPACE	custom_dmc_tasks/jaco.py	/^_SITE_WORKSPACE = _ReachWorkspace($/;"	v
+_SPIN_SPEED	custom_dmc_tasks/cheetah.py	/^_SPIN_SPEED = 5$/;"	v
+_SPIN_SPEED	custom_dmc_tasks/hopper.py	/^_SPIN_SPEED = 5$/;"	v
+_SPIN_SPEED	custom_dmc_tasks/walker.py	/^_SPIN_SPEED = 5$/;"	v
+_STAND_HEIGHT	custom_dmc_tasks/hopper.py	/^_STAND_HEIGHT = 0.6$/;"	v
+_STAND_HEIGHT	custom_dmc_tasks/walker.py	/^_STAND_HEIGHT = 1.2$/;"	v
+_TARGET_RADIUS	custom_dmc_tasks/jaco.py	/^_TARGET_RADIUS = 0.05$/;"	v
+_TERRAIN_BUMP_SCALE	custom_dmc_tasks/quadruped.py	/^_TERRAIN_BUMP_SCALE = 2  # Spatial scale of terrain bumps (in meters).$/;"	v
+_TERRAIN_SMOOTHNESS	custom_dmc_tasks/quadruped.py	/^_TERRAIN_SMOOTHNESS = 0.15  # 0.0: maximally bumpy; 1.0: completely smooth.$/;"	v
+_TIME_LIMIT	custom_dmc_tasks/jaco.py	/^_TIME_LIMIT = 10.$/;"	v
+_TOES	custom_dmc_tasks/quadruped.py	/^_TOES = [$/;"	v
+_WALK_SPEED	custom_dmc_tasks/quadruped.py	/^_WALK_SPEED = 0.5$/;"	v
+_WALK_SPEED	custom_dmc_tasks/walker.py	/^_WALK_SPEED = 1$/;"	v
+_WALLS	custom_dmc_tasks/quadruped.py	/^_WALLS = ['wall_px', 'wall_py', 'wall_nx', 'wall_ny']$/;"	v
+__call__	logger.py	/^    def __call__(self, key, value):$/;"	m	class:LogAndDumpCtx
+__call__	utils.py	/^    def __call__(self, rep):$/;"	m	class:PBE
+__call__	utils.py	/^    def __call__(self, step):$/;"	m	class:Every
+__call__	utils.py	/^    def __call__(self, step):$/;"	m	class:Until
+__call__	utils.py	/^    def __call__(self, x):$/;"	m	class:RMS
+__enter__	logger.py	/^    def __enter__(self):$/;"	m	class:LogAndDumpCtx
+__enter__	utils.py	/^    def __enter__(self):$/;"	m	class:eval_mode
+__eq__	utils.py	/^    def __eq__(self, other):$/;"	m	class:TanhTransform
+__exit__	logger.py	/^    def __exit__(self, *args):$/;"	m	class:LogAndDumpCtx
+__exit__	utils.py	/^    def __exit__(self, *args):$/;"	m	class:eval_mode
+__getattr__	dmc.py	/^    def __getattr__(self, name):$/;"	m	class:ActionDTypeWrapper
+__getattr__	dmc.py	/^    def __getattr__(self, name):$/;"	m	class:ActionRepeatWrapper
+__getattr__	dmc.py	/^    def __getattr__(self, name):$/;"	m	class:ExtendedTimeStepWrapper
+__getattr__	dmc.py	/^    def __getattr__(self, name):$/;"	m	class:FlattenJacoObservationWrapper
+__getattr__	dmc.py	/^    def __getattr__(self, name):$/;"	m	class:FrameStackWrapper
+__getattr__	dmc.py	/^    def __getattr__(self, name):$/;"	m	class:ObservationDTypeWrapper
+__getitem__	dmc.py	/^    def __getitem__(self, attr):$/;"	m	class:ExtendedTimeStep
+__init__	agent/bc.py	/^    def __init__(self, obs_dim, action_dim, hidden_dim):$/;"	m	class:Actor
+__init__	agent/bc.py	/^    def __init__(self,$/;"	m	class:BCAgent
+__init__	agent/cql.py	/^    def __init__(self, obs_dim, action_dim, hidden_dim):$/;"	m	class:Actor
+__init__	agent/cql.py	/^    def __init__(self, obs_dim, action_dim, hidden_dim):$/;"	m	class:Critic
+__init__	agent/cql.py	/^    def __init__(self,$/;"	m	class:CQLAgent
+__init__	agent/crr.py	/^    def __init__(self, obs_dim, action_dim, hidden_dim):$/;"	m	class:Actor
+__init__	agent/crr.py	/^    def __init__(self, obs_dim, action_dim, hidden_dim):$/;"	m	class:Critic
+__init__	agent/crr.py	/^    def __init__(self,$/;"	m	class:CRRAgent
+__init__	agent/td3.py	/^    def __init__(self, obs_dim, action_dim, hidden_dim):$/;"	m	class:Actor
+__init__	agent/td3.py	/^    def __init__(self, obs_dim, action_dim, hidden_dim):$/;"	m	class:Critic
+__init__	agent/td3.py	/^    def __init__(self,$/;"	m	class:TD3Agent
+__init__	agent/td3_bc.py	/^    def __init__(self, obs_dim, action_dim, hidden_dim):$/;"	m	class:Actor
+__init__	agent/td3_bc.py	/^    def __init__(self, obs_dim, action_dim, hidden_dim):$/;"	m	class:Critic
+__init__	agent/td3_bc.py	/^    def __init__(self,$/;"	m	class:TD3BCAgent
+__init__	custom_dmc_tasks/cheetah.py	/^    def __init__(self, forward=True, flip=False, random=None):$/;"	m	class:Cheetah
+__init__	custom_dmc_tasks/hopper.py	/^    def __init__(self, hopping, forward=True, flip=False, random=None):$/;"	m	class:Hopper
+__init__	custom_dmc_tasks/jaco.py	/^    def __init__(self, task_id, arena, arm, hand, prop, obs_settings,$/;"	m	class:MultiTaskReach
+__init__	custom_dmc_tasks/point_mass_maze.py	/^    def __init__(self, target_id, random=None):$/;"	m	class:MultiTaskPointMassMaze
+__init__	custom_dmc_tasks/quadruped.py	/^    def __init__(self, desired_height, random=None):$/;"	m	class:Jump
+__init__	custom_dmc_tasks/quadruped.py	/^    def __init__(self, desired_speed, random=None):$/;"	m	class:Move
+__init__	custom_dmc_tasks/quadruped.py	/^    def __init__(self, desired_speed, random=None):$/;"	m	class:Roll
+__init__	custom_dmc_tasks/quadruped.py	/^    def __init__(self, random=None):$/;"	m	class:MultiTask
+__init__	custom_dmc_tasks/quadruped.py	/^    def __init__(self, random=None):$/;"	m	class:Stand
+__init__	custom_dmc_tasks/walker.py	/^    def __init__(self, move_speed, flip=False, random=None):$/;"	m	class:PlanarWalker
+__init__	custom_dmc_tasks/walker.py	/^    def __init__(self, random=None):$/;"	m	class:MultiTaskPlanarWalker
+__init__	dmc.py	/^    def __init__(self, env):$/;"	m	class:ExtendedTimeStepWrapper
+__init__	dmc.py	/^    def __init__(self, env):$/;"	m	class:FlattenJacoObservationWrapper
+__init__	dmc.py	/^    def __init__(self, env, dtype):$/;"	m	class:ActionDTypeWrapper
+__init__	dmc.py	/^    def __init__(self, env, dtype):$/;"	m	class:ObservationDTypeWrapper
+__init__	dmc.py	/^    def __init__(self, env, num_frames, pixels_key='pixels'):$/;"	m	class:FrameStackWrapper
+__init__	dmc.py	/^    def __init__(self, env, num_repeats):$/;"	m	class:ActionRepeatWrapper
+__init__	logger.py	/^    def __init__(self):$/;"	m	class:AverageMeter
+__init__	logger.py	/^    def __init__(self, csv_file_name, formating):$/;"	m	class:MetersGroup
+__init__	logger.py	/^    def __init__(self, log_dir, use_tb, offline=False):$/;"	m	class:Logger
+__init__	logger.py	/^    def __init__(self, logger, step, ty):$/;"	m	class:LogAndDumpCtx
+__init__	replay_buffer.py	/^    def __init__(self, env, replay_dir, max_size, num_workers, discount):$/;"	m	class:OfflineReplayBuffer
+__init__	utils.py	/^    def __init__(self):$/;"	m	class:Timer
+__init__	utils.py	/^    def __init__(self, *models):$/;"	m	class:eval_mode
+__init__	utils.py	/^    def __init__(self, cache_size=1):$/;"	m	class:TanhTransform
+__init__	utils.py	/^    def __init__(self, device, epsilon=1e-4, shape=(1,)):$/;"	m	class:RMS
+__init__	utils.py	/^    def __init__(self, every, action_repeat=1):$/;"	m	class:Every
+__init__	utils.py	/^    def __init__(self, loc, scale):$/;"	m	class:SquashedNormal
+__init__	utils.py	/^    def __init__(self, loc, scale, low=-1.0, high=1.0, eps=1e-6):$/;"	m	class:TruncatedNormal
+__init__	utils.py	/^    def __init__(self, pad):$/;"	m	class:RandomShiftsAug
+__init__	utils.py	/^    def __init__(self, rms, knn_clip, knn_k, knn_avg, knn_rms, device):$/;"	m	class:PBE
+__init__	utils.py	/^    def __init__(self, until, action_repeat=1):$/;"	m	class:Until
+__init__	video.py	/^    def __init__(self,$/;"	m	class:VideoRecorder
+__iter__	replay_buffer.py	/^    def __iter__(self):$/;"	m	class:OfflineReplayBuffer
+_augment_time_step	dmc.py	/^    def _augment_time_step(self, time_step, action=None):$/;"	m	class:ExtendedTimeStepWrapper
+_call	utils.py	/^    def _call(self, x):$/;"	m	class:TanhTransform
+_clamp	utils.py	/^    def _clamp(self, x):$/;"	m	class:TruncatedNormal
+_common_observations	custom_dmc_tasks/quadruped.py	/^def _common_observations(physics):$/;"	f
+_dump_to_console	logger.py	/^    def _dump_to_console(self, data, prefix):$/;"	m	class:MetersGroup
+_dump_to_csv	logger.py	/^    def _dump_to_csv(self, data):$/;"	m	class:MetersGroup
+_extract_pixels	dmc.py	/^    def _extract_pixels(self, time_step):$/;"	m	class:FrameStackWrapper
+_find_non_contacting_height	custom_dmc_tasks/quadruped.py	/^def _find_non_contacting_height(physics, orientation, x_pos=0.0, y_pos=0.0):$/;"	f
+_format	logger.py	/^    def _format(self, key, value, ty):$/;"	m	class:MetersGroup
+_get_sensor_names	custom_dmc_tasks/quadruped.py	/^    def _get_sensor_names(self, *sensor_types):$/;"	m	class:Physics
+_inverse	utils.py	/^    def _inverse(self, y):$/;"	m	class:TanhTransform
+_load	replay_buffer.py	/^    def _load(self, relable=True):$/;"	m	class:OfflineReplayBuffer
+_make_dmc	dmc.py	/^def _make_dmc(obs_type, domain, task, frame_stack, action_repeat, seed):$/;"	f
+_make_jaco	dmc.py	/^def _make_jaco(obs_type, domain, task, frame_stack, action_repeat, seed):$/;"	f
+_make_target_site	custom_dmc_tasks/jaco.py	/^    def _make_target_site(self, parent_entity, visible):$/;"	m	class:MultiTaskReach
+_prime_meters	logger.py	/^    def _prime_meters(self):$/;"	m	class:MetersGroup
+_reach	custom_dmc_tasks/jaco.py	/^def _reach(task_id, obs_settings, use_site):$/;"	f
+_relable_reward	replay_buffer.py	/^    def _relable_reward(self, episode):$/;"	m	class:OfflineReplayBuffer
+_reload_from_data	custom_dmc_tasks/quadruped.py	/^    def _reload_from_data(self, data):$/;"	m	class:Physics
+_remove_old_entries	logger.py	/^    def _remove_old_entries(self, data):$/;"	m	class:MetersGroup
+_repeated_critic_apply	agent/cql.py	/^    def _repeated_critic_apply(self, obs, actions):$/;"	m	class:CQLAgent
+_sample	replay_buffer.py	/^    def _sample(self):$/;"	m	class:OfflineReplayBuffer
+_sample_episode	replay_buffer.py	/^    def _sample_episode(self):$/;"	m	class:OfflineReplayBuffer
+_transform_observation	dmc.py	/^    def _transform_observation(self, time_step):$/;"	m	class:FlattenJacoObservationWrapper
+_transform_observation	dmc.py	/^    def _transform_observation(self, time_step):$/;"	m	class:FrameStackWrapper
+_transform_observation	dmc.py	/^    def _transform_observation(self, time_step):$/;"	m	class:ObservationDTypeWrapper
+_try_sw_log	logger.py	/^    def _try_sw_log(self, key, value, step):$/;"	m	class:Logger
+_upright_reward	custom_dmc_tasks/quadruped.py	/^def _upright_reward(physics, deviation_angle=0):$/;"	f
+_worker_init_fn	replay_buffer.py	/^def _worker_init_fn(worker_id):$/;"	f
+act	agent/bc.py	/^    def act(self, obs, step, eval_mode):$/;"	m	class:BCAgent
+act	agent/cql.py	/^    def act(self, obs, step, eval_mode):$/;"	m	class:CQLAgent
+act	agent/crr.py	/^    def act(self, obs, step, eval_mode):$/;"	m	class:CRRAgent
+act	agent/td3.py	/^    def act(self, obs, step, eval_mode):$/;"	m	class:TD3Agent
+act	agent/td3_bc.py	/^    def act(self, obs, step, eval_mode):$/;"	m	class:TD3BCAgent
+action_spec	dmc.py	/^    def action_spec(self):$/;"	m	class:ActionDTypeWrapper
+action_spec	dmc.py	/^    def action_spec(self):$/;"	m	class:ActionRepeatWrapper
+action_spec	dmc.py	/^    def action_spec(self):$/;"	m	class:ExtendedTimeStepWrapper
+action_spec	dmc.py	/^    def action_spec(self):$/;"	m	class:FlattenJacoObservationWrapper
+action_spec	dmc.py	/^    def action_spec(self):$/;"	m	class:FrameStackWrapper
+action_spec	dmc.py	/^    def action_spec(self):$/;"	m	class:ObservationDTypeWrapper
+adv_transform	agent/crr.py	/^    def adv_transform(self, A):$/;"	m	class:CRRAgent
+angmomentum	custom_dmc_tasks/cheetah.py	/^    def angmomentum(self):$/;"	m	class:Physics
+angmomentum	custom_dmc_tasks/hopper.py	/^    def angmomentum(self):$/;"	m	class:Physics
+angmomentum	custom_dmc_tasks/walker.py	/^    def angmomentum(self):$/;"	m	class:Physics
+arm	custom_dmc_tasks/jaco.py	/^    def arm(self):$/;"	m	class:MultiTaskReach
+atanh	utils.py	/^    def atanh(x):$/;"	m	class:TanhTransform
+ball_state	custom_dmc_tasks/quadruped.py	/^    def ball_state(self):$/;"	m	class:Physics
+ball_to_target_distance	custom_dmc_tasks/quadruped.py	/^    def ball_to_target_distance(self):$/;"	m	class:Physics
+bijective	utils.py	/^    bijective = True$/;"	v	class:TanhTransform
+cdmc	dmc.py	/^import custom_dmc_tasks as cdmc$/;"	I	nameref:module:custom_dmc_tasks
+chain	utils.py	/^def chain(*iterables):$/;"	f
+codomain	utils.py	/^    codomain = pyd.constraints.interval(-1.0, 1.0)$/;"	v	class:TanhTransform
+com_height	custom_dmc_tasks/quadruped.py	/^    def com_height(self):$/;"	m	class:Physics
+compute_value	agent/crr.py	/^    def compute_value(self, obs, step):$/;"	m	class:CRRAgent
+default_on_none	dmc.py	/^        def default_on_none(value, default):$/;"	f	member:ExtendedTimeStepWrapper._augment_time_step	file:
+discount_spec	dmc.py	/^    def discount_spec(self):$/;"	m	class:ExtendedTimeStepWrapper
+domain	utils.py	/^    domain = pyd.constraints.real$/;"	v	class:TanhTransform
+dump	logger.py	/^    def dump(self, step, prefix):$/;"	m	class:MetersGroup
+dump	logger.py	/^    def dump(self, step, ty=None):$/;"	m	class:Logger
+egocentric_state	custom_dmc_tasks/quadruped.py	/^    def egocentric_state(self):$/;"	m	class:Physics
+enums	custom_dmc_tasks/quadruped.py	/^enums = mjbindings.enums$/;"	v
+episode_len	replay_buffer.py	/^def episode_len(episode):$/;"	f
+escape	custom_dmc_tasks/quadruped.py	/^def escape(time_limit=_DEFAULT_TIME_LIMIT,$/;"	f
+eval	train_offline.py	/^def eval(global_step, agent, env, logger, num_eval_episodes, video_recorder):$/;"	f
+eval_mode	utils.py	/^class eval_mode:$/;"	c
+fetch	custom_dmc_tasks/quadruped.py	/^def fetch(time_limit=_DEFAULT_TIME_LIMIT,$/;"	f
+first	dmc.py	/^    def first(self):$/;"	m	class:ExtendedTimeStep
+flip	custom_dmc_tasks/cheetah.py	/^def flip(time_limit=_DEFAULT_TIME_LIMIT,$/;"	f
+flip	custom_dmc_tasks/hopper.py	/^def flip(time_limit=_DEFAULT_TIME_LIMIT, random=None, environment_kwargs=None):$/;"	f
+flip	custom_dmc_tasks/walker.py	/^def flip(time_limit=_DEFAULT_TIME_LIMIT, random=None, environment_kwargs=None):$/;"	f
+flip_backward	custom_dmc_tasks/cheetah.py	/^def flip_backward(time_limit=_DEFAULT_TIME_LIMIT,$/;"	f
+flip_backward	custom_dmc_tasks/hopper.py	/^def flip_backward(time_limit=_DEFAULT_TIME_LIMIT, random=None, environment_kwargs=None):$/;"	f
+force_torque	custom_dmc_tasks/quadruped.py	/^    def force_torque(self):$/;"	m	class:Physics
+forward	agent/bc.py	/^    def forward(self, obs, std):$/;"	m	class:Actor
+forward	agent/cql.py	/^    def forward(self, obs):$/;"	m	class:Actor
+forward	agent/cql.py	/^    def forward(self, obs, action):$/;"	m	class:Critic
+forward	agent/crr.py	/^    def forward(self, obs, action):$/;"	m	class:Critic
+forward	agent/crr.py	/^    def forward(self, obs, std):$/;"	m	class:Actor
+forward	agent/td3.py	/^    def forward(self, obs, action):$/;"	m	class:Critic
+forward	agent/td3.py	/^    def forward(self, obs, std):$/;"	m	class:Actor
+forward	agent/td3_bc.py	/^    def forward(self, obs, action):$/;"	m	class:Critic
+forward	agent/td3_bc.py	/^    def forward(self, obs, std):$/;"	m	class:Actor
+forward	utils.py	/^    def forward(self, x):$/;"	m	class:RandomShiftsAug
+get_batch	dataset.py	/^    def get_batch(batch_size=256, max_len=K):$/;"	f	function:main	file:
+get_data_seed	train_offline.py	/^def get_data_seed(seed, num_data_seeds):$/;"	f
+get_domain	train_offline.py	/^def get_domain(task):$/;"	f
+get_model_and_assets	custom_dmc_tasks/cheetah.py	/^def get_model_and_assets():$/;"	f
+get_model_and_assets	custom_dmc_tasks/hopper.py	/^def get_model_and_assets():$/;"	f
+get_model_and_assets	custom_dmc_tasks/point_mass_maze.py	/^def get_model_and_assets(task):$/;"	f
+get_model_and_assets	custom_dmc_tasks/quadruped.py	/^def get_model_and_assets():$/;"	f
+get_model_and_assets	custom_dmc_tasks/walker.py	/^def get_model_and_assets():$/;"	f
+get_observation	custom_dmc_tasks/cheetah.py	/^    def get_observation(self, physics):$/;"	m	class:Cheetah
+get_observation	custom_dmc_tasks/hopper.py	/^    def get_observation(self, physics):$/;"	m	class:Hopper
+get_observation	custom_dmc_tasks/point_mass_maze.py	/^    def get_observation(self, physics):$/;"	m	class:MultiTaskPointMassMaze
+get_observation	custom_dmc_tasks/quadruped.py	/^    def get_observation(self, physics):$/;"	m	class:Escape
+get_observation	custom_dmc_tasks/quadruped.py	/^    def get_observation(self, physics):$/;"	m	class:Fetch
+get_observation	custom_dmc_tasks/quadruped.py	/^    def get_observation(self, physics):$/;"	m	class:Jump
+get_observation	custom_dmc_tasks/quadruped.py	/^    def get_observation(self, physics):$/;"	m	class:Move
+get_observation	custom_dmc_tasks/quadruped.py	/^    def get_observation(self, physics):$/;"	m	class:MultiTask
+get_observation	custom_dmc_tasks/quadruped.py	/^    def get_observation(self, physics):$/;"	m	class:Roll
+get_observation	custom_dmc_tasks/quadruped.py	/^    def get_observation(self, physics):$/;"	m	class:Stand
+get_observation	custom_dmc_tasks/walker.py	/^    def get_observation(self, physics):$/;"	m	class:MultiTaskPlanarWalker
+get_observation	custom_dmc_tasks/walker.py	/^    def get_observation(self, physics):$/;"	m	class:PlanarWalker
+get_reward	custom_dmc_tasks/cheetah.py	/^    def get_reward(self, physics):$/;"	m	class:Cheetah
+get_reward	custom_dmc_tasks/hopper.py	/^    def get_reward(self, physics):$/;"	m	class:Hopper
+get_reward	custom_dmc_tasks/jaco.py	/^    def get_reward(self, physics):$/;"	m	class:MultiTaskReach
+get_reward	custom_dmc_tasks/point_mass_maze.py	/^    def get_reward(self, physics):$/;"	m	class:MultiTaskPointMassMaze
+get_reward	custom_dmc_tasks/quadruped.py	/^    def get_reward(self, physics):$/;"	m	class:Escape
+get_reward	custom_dmc_tasks/quadruped.py	/^    def get_reward(self, physics):$/;"	m	class:Fetch
+get_reward	custom_dmc_tasks/quadruped.py	/^    def get_reward(self, physics):$/;"	m	class:Jump
+get_reward	custom_dmc_tasks/quadruped.py	/^    def get_reward(self, physics):$/;"	m	class:Move
+get_reward	custom_dmc_tasks/quadruped.py	/^    def get_reward(self, physics):$/;"	m	class:MultiTask
+get_reward	custom_dmc_tasks/quadruped.py	/^    def get_reward(self, physics):$/;"	m	class:Roll
+get_reward	custom_dmc_tasks/quadruped.py	/^    def get_reward(self, physics):$/;"	m	class:Stand
+get_reward	custom_dmc_tasks/walker.py	/^    def get_reward(self, physics):$/;"	m	class:MultiTaskPlanarWalker
+get_reward	custom_dmc_tasks/walker.py	/^    def get_reward(self, physics):$/;"	m	class:PlanarWalker
+get_reward_spec	custom_dmc_tasks/jaco.py	/^    def get_reward_spec(self):$/;"	m	class:MultiTaskReach
+get_reward_spec	custom_dmc_tasks/point_mass_maze.py	/^    def get_reward_spec(self):$/;"	m	class:MultiTaskPointMassMaze
+get_reward_spec	custom_dmc_tasks/quadruped.py	/^    def get_reward_spec(self):$/;"	m	class:MultiTask
+get_reward_spec	custom_dmc_tasks/walker.py	/^    def get_reward_spec(self):$/;"	m	class:MultiTaskPlanarWalker
+grad_norm	utils.py	/^def grad_norm(params, norm_type=2.0):$/;"	f
+hand	custom_dmc_tasks/jaco.py	/^    def hand(self):$/;"	m	class:MultiTaskReach
+hard_update_params	utils.py	/^def hard_update_params(net, target_net):$/;"	f
+height	custom_dmc_tasks/hopper.py	/^    def height(self):$/;"	m	class:Physics
+hop_backward	custom_dmc_tasks/hopper.py	/^def hop_backward(time_limit=_DEFAULT_TIME_LIMIT, random=None, environment_kwargs=None):$/;"	f
+horizontal_velocity	custom_dmc_tasks/walker.py	/^    def horizontal_velocity(self):$/;"	m	class:Physics
+imu	custom_dmc_tasks/quadruped.py	/^    def imu(self):$/;"	m	class:Physics
+init	video.py	/^    def init(self, env, enabled=True):$/;"	m	class:VideoRecorder
+initialize_episode	custom_dmc_tasks/cheetah.py	/^    def initialize_episode(self, physics):$/;"	m	class:Cheetah
+initialize_episode	custom_dmc_tasks/hopper.py	/^    def initialize_episode(self, physics):$/;"	m	class:Hopper
+initialize_episode	custom_dmc_tasks/jaco.py	/^    def initialize_episode(self, physics, random_state):$/;"	m	class:MultiTaskReach
+initialize_episode	custom_dmc_tasks/point_mass_maze.py	/^    def initialize_episode(self, physics):$/;"	m	class:MultiTaskPointMassMaze
+initialize_episode	custom_dmc_tasks/quadruped.py	/^    def initialize_episode(self, physics):$/;"	m	class:Escape
+initialize_episode	custom_dmc_tasks/quadruped.py	/^    def initialize_episode(self, physics):$/;"	m	class:Fetch
+initialize_episode	custom_dmc_tasks/quadruped.py	/^    def initialize_episode(self, physics):$/;"	m	class:Jump
+initialize_episode	custom_dmc_tasks/quadruped.py	/^    def initialize_episode(self, physics):$/;"	m	class:Move
+initialize_episode	custom_dmc_tasks/quadruped.py	/^    def initialize_episode(self, physics):$/;"	m	class:MultiTask
+initialize_episode	custom_dmc_tasks/quadruped.py	/^    def initialize_episode(self, physics):$/;"	m	class:Roll
+initialize_episode	custom_dmc_tasks/quadruped.py	/^    def initialize_episode(self, physics):$/;"	m	class:Stand
+initialize_episode	custom_dmc_tasks/walker.py	/^    def initialize_episode(self, physics):$/;"	m	class:MultiTaskPlanarWalker
+initialize_episode	custom_dmc_tasks/walker.py	/^    def initialize_episode(self, physics):$/;"	m	class:PlanarWalker
+jump	custom_dmc_tasks/quadruped.py	/^def jump(time_limit=_DEFAULT_TIME_LIMIT, random=None, environment_kwargs=None):$/;"	f
+last	dmc.py	/^    def last(self):$/;"	m	class:ExtendedTimeStep
+load_episode	replay_buffer.py	/^def load_episode(fn):$/;"	f
+log	logger.py	/^    def log(self, key, value, n=1):$/;"	m	class:MetersGroup
+log	logger.py	/^    def log(self, key, value, step):$/;"	m	class:Logger
+log_abs_det_jacobian	utils.py	/^    def log_abs_det_jacobian(self, x, y):$/;"	m	class:TanhTransform
+log_and_dump_ctx	logger.py	/^    def log_and_dump_ctx(self, step, ty):$/;"	m	class:Logger
+log_metrics	logger.py	/^    def log_metrics(self, metrics, step, ty):$/;"	m	class:Logger
+log_to_wandb	video.py	/^    def log_to_wandb(self):$/;"	m	class:VideoRecorder
+main	dataset.py	/^def main():$/;"	f
+main	train_offline.py	/^def main(cfg):$/;"	f
+make	custom_dmc_tasks/__init__.py	/^def make(domain, task,$/;"	f
+make	custom_dmc_tasks/cheetah.py	/^def make(task,$/;"	f
+make	custom_dmc_tasks/hopper.py	/^def make(task,$/;"	f
+make	custom_dmc_tasks/jaco.py	/^def make(task_id, obs_type, seed):$/;"	f
+make	custom_dmc_tasks/point_mass_maze.py	/^def make(task,$/;"	f
+make	custom_dmc_tasks/quadruped.py	/^def make(task,$/;"	f
+make	custom_dmc_tasks/walker.py	/^def make(task,$/;"	f
+make	dmc.py	/^def make(name, obs_type='states', frame_stack=1, action_repeat=1, seed=1):$/;"	f
+make_jaco	custom_dmc_tasks/__init__.py	/^def make_jaco(task, obs_type, seed):$/;"	f
+make_model	custom_dmc_tasks/quadruped.py	/^def make_model(floor_size=None,$/;"	f
+make_replay_loader	replay_buffer.py	/^def make_replay_loader(env, replay_dir, max_size, batch_size, num_workers,$/;"	f
+mass_to_target_dist	custom_dmc_tasks/point_mass_maze.py	/^    def mass_to_target_dist(self, target):$/;"	m	class:Physics
+mean	utils.py	/^    def mean(self):$/;"	m	class:SquashedNormal
+mid	dmc.py	/^    def mid(self):$/;"	m	class:ExtendedTimeStep
+mjlib	custom_dmc_tasks/quadruped.py	/^mjlib = mjbindings.mjlib$/;"	v
+multitask	custom_dmc_tasks/quadruped.py	/^def multitask(time_limit=_DEFAULT_TIME_LIMIT,$/;"	f
+multitask	custom_dmc_tasks/walker.py	/^def multitask(time_limit=_DEFAULT_TIME_LIMIT,$/;"	f
+nn	agent/bc.py	/^import torch.nn as nn$/;"	I	nameref:module:torch.nn
+nn	agent/cql.py	/^import torch.nn as nn$/;"	I	nameref:module:torch.nn
+nn	agent/crr.py	/^import torch.nn as nn$/;"	I	nameref:module:torch.nn
+nn	agent/td3.py	/^import torch.nn as nn$/;"	I	nameref:module:torch.nn
+nn	agent/td3_bc.py	/^import torch.nn as nn$/;"	I	nameref:module:torch.nn
+nn	replay_buffer.py	/^import torch.nn as nn$/;"	I	nameref:module:torch.nn
+nn	utils.py	/^import torch.nn as nn$/;"	I	nameref:module:torch.nn
+np	agent/bc.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	agent/cql.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	agent/crr.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	agent/td3.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	agent/td3_bc.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	custom_dmc_tasks/hopper.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	custom_dmc_tasks/jaco.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	custom_dmc_tasks/point_mass_maze.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	custom_dmc_tasks/quadruped.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	custom_dmc_tasks/walker.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	dataset.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	dmc.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	logger.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	replay_buffer.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	train_offline.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	utils.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	video.py	/^import numpy as np$/;"	I	nameref:module:numpy
+observation_spec	dmc.py	/^    def observation_spec(self):$/;"	m	class:ActionDTypeWrapper
+observation_spec	dmc.py	/^    def observation_spec(self):$/;"	m	class:ActionRepeatWrapper
+observation_spec	dmc.py	/^    def observation_spec(self):$/;"	m	class:ExtendedTimeStepWrapper
+observation_spec	dmc.py	/^    def observation_spec(self):$/;"	m	class:FlattenJacoObservationWrapper
+observation_spec	dmc.py	/^    def observation_spec(self):$/;"	m	class:FrameStackWrapper
+observation_spec	dmc.py	/^    def observation_spec(self):$/;"	m	class:ObservationDTypeWrapper
+orientations	custom_dmc_tasks/walker.py	/^    def orientations(self):$/;"	m	class:Physics
+origin	custom_dmc_tasks/quadruped.py	/^    def origin(self):$/;"	m	class:Physics
+origin_distance	custom_dmc_tasks/quadruped.py	/^    def origin_distance(self):$/;"	m	class:Physics
+param_norm	utils.py	/^def param_norm(params, norm_type=2.0):$/;"	f
+physics_spec	dmc.py	/^    def physics_spec(self):$/;"	m	class:ExtendedTimeStepWrapper
+pyd	utils.py	/^from torch import distributions as pyd$/;"	x	nameref:unknown:distributions
+rangefinder	custom_dmc_tasks/quadruped.py	/^    def rangefinder(self):$/;"	m	class:Physics
+reach_bottom_left	custom_dmc_tasks/point_mass_maze.py	/^def reach_bottom_left(time_limit=_DEFAULT_TIME_LIMIT,$/;"	f
+reach_bottom_right	custom_dmc_tasks/point_mass_maze.py	/^def reach_bottom_right(time_limit=_DEFAULT_TIME_LIMIT,$/;"	f
+reach_top_left	custom_dmc_tasks/point_mass_maze.py	/^def reach_top_left(time_limit=_DEFAULT_TIME_LIMIT,$/;"	f
+reach_top_right	custom_dmc_tasks/point_mass_maze.py	/^def reach_top_right(time_limit=_DEFAULT_TIME_LIMIT,$/;"	f
+record	video.py	/^    def record(self, env):$/;"	m	class:VideoRecorder
+relable_episode	replay_buffer.py	/^def relable_episode(env, episode):$/;"	f
+reset	dmc.py	/^    def reset(self):$/;"	m	class:ActionDTypeWrapper
+reset	dmc.py	/^    def reset(self):$/;"	m	class:ActionRepeatWrapper
+reset	dmc.py	/^    def reset(self):$/;"	m	class:ExtendedTimeStepWrapper
+reset	dmc.py	/^    def reset(self):$/;"	m	class:FlattenJacoObservationWrapper
+reset	dmc.py	/^    def reset(self):$/;"	m	class:FrameStackWrapper
+reset	dmc.py	/^    def reset(self):$/;"	m	class:ObservationDTypeWrapper
+reset	utils.py	/^    def reset(self):$/;"	m	class:Timer
+resources	custom_dmc_tasks/cheetah.py	/^from dm_control.utils import io as resources$/;"	x	nameref:unknown:io
+resources	custom_dmc_tasks/hopper.py	/^from dm_control.utils import io as resources$/;"	x	nameref:unknown:io
+resources	custom_dmc_tasks/point_mass_maze.py	/^from dm_control.utils import io as resources$/;"	x	nameref:unknown:io
+resources	custom_dmc_tasks/walker.py	/^from dm_control.utils import io as resources$/;"	x	nameref:unknown:io
+reward_spec	dmc.py	/^    def reward_spec(self):$/;"	m	class:ExtendedTimeStepWrapper
+roll	custom_dmc_tasks/quadruped.py	/^def roll(time_limit=_DEFAULT_TIME_LIMIT, random=None, environment_kwargs=None):$/;"	f
+roll_fast	custom_dmc_tasks/quadruped.py	/^def roll_fast(time_limit=_DEFAULT_TIME_LIMIT,$/;"	f
+root_entity	custom_dmc_tasks/jaco.py	/^    def root_entity(self):$/;"	m	class:MultiTaskReach
+run_backward	custom_dmc_tasks/cheetah.py	/^def run_backward(time_limit=_DEFAULT_TIME_LIMIT,$/;"	f
+sample	utils.py	/^    def sample(self, clip=None, sample_shape=torch.Size()):$/;"	m	class:TruncatedNormal
+save	video.py	/^    def save(self, file_name):$/;"	m	class:VideoRecorder
+save_episode	replay_buffer.py	/^def save_episode(episode, fn):$/;"	f
+schedule	utils.py	/^def schedule(schdl, step):$/;"	f
+self_to_ball_distance	custom_dmc_tasks/quadruped.py	/^    def self_to_ball_distance(self):$/;"	m	class:Physics
+set_seed_everywhere	utils.py	/^def set_seed_everywhere(seed):$/;"	f
+sign	utils.py	/^    sign = +1$/;"	v	class:TanhTransform
+soft_update_params	utils.py	/^def soft_update_params(net, target_net, tau):$/;"	f
+speed	custom_dmc_tasks/cheetah.py	/^    def speed(self):$/;"	m	class:Physics
+speed	custom_dmc_tasks/hopper.py	/^    def speed(self):$/;"	m	class:Physics
+stand	custom_dmc_tasks/quadruped.py	/^def stand(time_limit=_DEFAULT_TIME_LIMIT,$/;"	f
+step	dmc.py	/^    def step(self, action):$/;"	m	class:ActionDTypeWrapper
+step	dmc.py	/^    def step(self, action):$/;"	m	class:ActionRepeatWrapper
+step	dmc.py	/^    def step(self, action):$/;"	m	class:ExtendedTimeStepWrapper
+step	dmc.py	/^    def step(self, action):$/;"	m	class:FlattenJacoObservationWrapper
+step	dmc.py	/^    def step(self, action):$/;"	m	class:FrameStackWrapper
+step	dmc.py	/^    def step(self, action):$/;"	m	class:ObservationDTypeWrapper
+target_position	custom_dmc_tasks/quadruped.py	/^    def target_position(self):$/;"	m	class:Physics
+task_observables	custom_dmc_tasks/jaco.py	/^    def task_observables(self):$/;"	m	class:MultiTaskReach
+to_torch	utils.py	/^def to_torch(xs, device):$/;"	f
+toe_positions	custom_dmc_tasks/quadruped.py	/^    def toe_positions(self):$/;"	m	class:Physics
+torso_height	custom_dmc_tasks/walker.py	/^    def torso_height(self):$/;"	m	class:Physics
+torso_upright	custom_dmc_tasks/quadruped.py	/^    def torso_upright(self):$/;"	m	class:Physics
+torso_upright	custom_dmc_tasks/walker.py	/^    def torso_upright(self):$/;"	m	class:Physics
+torso_velocity	custom_dmc_tasks/quadruped.py	/^    def torso_velocity(self):$/;"	m	class:Physics
+total_time	utils.py	/^    def total_time(self):$/;"	m	class:Timer
+touch	custom_dmc_tasks/hopper.py	/^    def touch(self):$/;"	m	class:Physics
+train	agent/bc.py	/^    def train(self, training=True):$/;"	m	class:BCAgent
+train	agent/cql.py	/^    def train(self, training=True):$/;"	m	class:CQLAgent
+train	agent/crr.py	/^    def train(self, training=True):$/;"	m	class:CRRAgent
+train	agent/td3.py	/^    def train(self, training=True):$/;"	m	class:TD3Agent
+train	agent/td3_bc.py	/^    def train(self, training=True):$/;"	m	class:TD3BCAgent
+update	agent/bc.py	/^    def update(self, replay_iter, step):$/;"	m	class:BCAgent
+update	agent/cql.py	/^    def update(self, replay_iter, step):$/;"	m	class:CQLAgent
+update	agent/crr.py	/^    def update(self, replay_iter, step):$/;"	m	class:CRRAgent
+update	agent/td3.py	/^    def update(self, replay_iter, step):$/;"	m	class:TD3Agent
+update	agent/td3_bc.py	/^    def update(self, replay_iter, step):$/;"	m	class:TD3BCAgent
+update	logger.py	/^    def update(self, value, n=1):$/;"	m	class:AverageMeter
+update_actor	agent/bc.py	/^    def update_actor(self, obs, action, step):$/;"	m	class:BCAgent
+update_actor	agent/cql.py	/^    def update_actor(self, obs, action, step):$/;"	m	class:CQLAgent
+update_actor	agent/crr.py	/^    def update_actor(self, obs, action, step):$/;"	m	class:CRRAgent
+update_actor	agent/td3.py	/^    def update_actor(self, obs, action, step):$/;"	m	class:TD3Agent
+update_actor	agent/td3_bc.py	/^    def update_actor(self, obs, action, step):$/;"	m	class:TD3BCAgent
+update_critic	agent/cql.py	/^    def update_critic(self, obs, action, reward, discount, next_obs, step):$/;"	m	class:CQLAgent
+update_critic	agent/crr.py	/^    def update_critic(self, obs, action, reward, discount, next_obs, step):$/;"	m	class:CRRAgent
+update_critic	agent/td3.py	/^    def update_critic(self, obs, action, reward, discount, next_obs, step):$/;"	m	class:TD3Agent
+update_critic	agent/td3_bc.py	/^    def update_critic(self, obs, action, reward, discount, next_obs, step):$/;"	m	class:TD3BCAgent
+value	logger.py	/^    def value(self):$/;"	m	class:AverageMeter
+weight_init	utils.py	/^def weight_init(m):$/;"	f
