@@ -1,6 +1,8 @@
 Sequence Modeling is a Robust Contender for Offline Reinforcement Learning
 (NEURIPS 2023 Submission)
 
+Download the humanoid offline RL data from here: https://dl.fbaipublicfiles.com/prajj/rl_paradigm/humanoid_offline_rl_data.tar.gz
+
 Each directory contains a `script` directory within it. The script within `script` directory was used to run experiments for this study. All the scripts are highly configurable. Change the parameter according to your needs.
 
 ### Running Experiments on Atari
