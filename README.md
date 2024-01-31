@@ -1,5 +1,8 @@
-Sequence Modeling is a Robust Contender for Offline Reinforcement Learning
-(NEURIPS 2023 Submission)
+# When should we prefer Decision Transformers for Offline Reinforcement Learning?
+Meta AI, University of Texas at Austin
+
+
+ICLR 2024, https://arxiv.org/abs/2305.14550
 
 Download the humanoid offline RL data from here: https://dl.fbaipublicfiles.com/prajj/rl_paradigm/humanoid_offline_rl_data.tar.gz
 
